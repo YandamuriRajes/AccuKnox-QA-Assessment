@@ -9,6 +9,7 @@ Problem 2 Documentation
 Please refer to the docs folder within the problem2 directory for Problem 2 documentation.
 
 Repository Structure
+
 problem1/
 
 Contains solutions and documentation for Problem 1.
