@@ -17,7 +17,7 @@ This repository contains the automation setup for QA testing, including deployme
    git clone https://github.com/Vengatesh-m/qa-test.git
    cd qa-test
    ```
-Docker Deployment
+## Docker Deployment
 First, we need to build and run our Docker containers for both the frontend and backend services.
 
 Step 1: Build Docker images:
