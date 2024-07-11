@@ -20,17 +20,26 @@ This repository contains the automation setup for QA testing, including deployme
 ## Docker Deployment
 First, we need to build and run our Docker containers for both the frontend and backend services.
 
-Step 1: Build Docker images:
+Step 1: Build Docker Images
+Build the backend Docker image:
+```bash
 docker build -t backend:latest -f Dockerfile.backend .
+```
+Build the frontend Docker image:
+```bash
 docker build -t frontend:latest -f Dockerfile.frontend .
-
-Step 2: Run Docker containers:
+```
+Step 2: Run Docker Containers
+Run the backend and frontend Docker container:
+```bash
 docker run -d -p 8080:8080 backend:latest
 docker run -d -p 3000:3000 frontend:latest
-
-Step 3: Verify that the containers are running:
+```
+Step 3: Verify that the Containers are Running
+List the running Docker containers:
+```bash
 docker ps
-
+```
 ## Starting the Kubernetes Cluster
 
 1. Start Minikube or Kind:
