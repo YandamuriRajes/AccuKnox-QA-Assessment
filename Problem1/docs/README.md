@@ -21,6 +21,7 @@ This repository contains the automation setup for QA testing, including deployme
 First, we need to build and run our Docker containers for both the frontend and backend services.
 
 Step 1: Build Docker Images
+
 Build the backend Docker image:
 ```bash
 docker build -t backend:latest -f Dockerfile.backend .
